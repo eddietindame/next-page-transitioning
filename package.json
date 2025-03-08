@@ -1,6 +1,6 @@
 {
-  "name": "next-page-transitions",
-  "version": "1.0.0-beta.2",
+  "name": "next-page-transitioning",
+  "version": "1.0.0",
   "description": "Simple and customizable page transitions for Next.js apps",
   "main": "lib/index.js",
   "files": [
@@ -16,17 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/illinois/next-page-transitions.git"
+    "url": "git+https://github.com/eddietindame/next-page-transitioning.git"
   },
-  "author": "Nathan Walters <nwalters512@gmail.com>",
+  "author": "Eddie Tindame <eddie.tindame@googlemail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/illinois/next-page-transitions/issues"
+    "url": "https://github.com/eddietindame/next-page-transitioning/issues"
   },
-  "homepage": "https://github.com/illinois/next-page-transitions#readme",
+  "homepage": "https://github.com/eddietindame/next-page-transitioning#readme",
   "dependencies": {
     "prop-types": "^15.6.1",
-    "react-transition-group": "^2.3.1"
+    "react-transitioning": "^1.0.3"
   },
   "peerDependencies": {
     "react": ">=16.0.0",
@@ -50,8 +50,8 @@
     "husky": "^0.14.3",
     "prettier": "^1.12.1",
     "pretty-quick": "^1.4.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "rimraf": "^2.6.2"
   },
   "husky": {

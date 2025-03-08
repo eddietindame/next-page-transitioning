@@ -4,9 +4,7 @@
 /* eslint-disable react/no-did-mount-set-state */
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import Transition from 'react-transition-group/Transition'
-import CSSTransition from 'react-transition-group/CSSTransition'
-import { timeoutsShape } from 'react-transition-group/utils/PropTypes'
+import {Transition, CSSTransition, timeoutsShape} from 'react-transitioning'
 
 function areChildrenDifferent(oldChildren, newChildren) {
   return oldChildren !== newChildren
